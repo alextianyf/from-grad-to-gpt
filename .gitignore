@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets and generated training artifacts
+data/
+checkpoints/
+logs/
+runs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,14 @@
+{
+  "python.defaultInterpreterPath": "${env:USERPROFILE}\\miniconda3\\envs\\from-grad-to-gpt\\python.exe",
+  "python.useEnvironmentsExtension": false,
+  "terminal.integrated.defaultProfile.windows": "Conda (from-grad-to-gpt)",
+  "terminal.integrated.profiles.windows": {
+    "Conda (from-grad-to-gpt)": {
+      "path": "${env:windir}\\System32\\cmd.exe",
+      "args": [
+        "/K",
+        "call \"${env:USERPROFILE}\\miniconda3\\Scripts\\activate.bat\" \"${env:USERPROFILE}\\miniconda3\\envs\\from-grad-to-gpt\""
+      ]
+    }
+  }
+}

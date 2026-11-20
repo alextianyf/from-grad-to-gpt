@@ -1,0 +1,13 @@
+name: from-grad-to-gpt
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python==3.12.16
+  - pip==26.2.2
+  # Use PyPI wheels for the notebook stack and bundled Windows numerical libraries.
+  - pip:
+      - jupyterlab==4.6.6
+      - ipykernel==7.4.0
+      - numpy==2.5.5
+      - matplotlib==3.11.2
